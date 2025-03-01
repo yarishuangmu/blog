@@ -1,0 +1,60 @@
+{
+  "common": {
+    "english": "English",
+    "chinese": "中文",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "email": "Email",
+    "password": "Password",
+    "name": "Name",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "about_me": "About Me",
+    "social_links": "Social Links",
+    "gender": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact",
+    "dashboard": "Dashboard"
+  },
+  "auth": {
+    "login_title": "Login to your account",
+    "register_title": "Create new account",
+    "forgot_password": "Forgot password?",
+    "remember_me": "Remember me",
+    "no_account": "Don't have an account?",
+    "have_account": "Already have an account?"
+  },
+  "blog": {
+    "title": "Blog",
+    "new_post": "New Post",
+    "edit_post": "Edit Post",
+    "delete_post": "Delete Post",
+    "post_title": "Title",
+    "post_content": "Content",
+    "publish": "Publish",
+    "unpublish": "Unpublish",
+    "published": "Published",
+    "draft": "Draft"
+  },
+  "error": {
+    "required": "This field is required",
+    "invalid_email": "Invalid email address",
+    "password_length": "Password must be at least 6 characters",
+    "unknown": "An unknown error occurred"
+  }
+} 

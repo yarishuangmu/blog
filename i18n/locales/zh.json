@@ -1,0 +1,51 @@
+{
+  "common": {
+    "login": "登录",
+    "register": "注册",
+    "logout": "退出",
+    "email": "邮箱",
+    "password": "密码",
+    "name": "姓名",
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "search": "搜索",
+    "loading": "加载中..."
+  },
+  "nav": {
+    "home": "首页",
+    "blog": "博客",
+    "about": "关于",
+    "contact": "联系",
+    "dashboard": "控制台"
+  },
+  "auth": {
+    "login_title": "登录您的账户",
+    "register_title": "创建新账户",
+    "forgot_password": "忘记密码？",
+    "remember_me": "记住我",
+    "no_account": "还没有账户？",
+    "have_account": "已有账户？"
+  },
+  "blog": {
+    "title": "博客",
+    "new_post": "新建文章",
+    "edit_post": "编辑文章",
+    "delete_post": "删除文章",
+    "post_title": "标题",
+    "post_content": "内容",
+    "publish": "发布",
+    "unpublish": "取消发布",
+    "published": "已发布",
+    "draft": "草稿"
+  },
+  "error": {
+    "required": "此字段为必填项",
+    "invalid_email": "邮箱地址无效",
+    "password_length": "密码长度至少为6个字符",
+    "unknown": "发生未知错误"
+  }
+} 
