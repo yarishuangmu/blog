@@ -2,6 +2,25 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  // 确保 SSR 开启
+  ssr: true,
+
+  // 优化实验性功能
+  experimental: {
+    payloadExtraction: true,
+    renderJsonPayloads: true,
+    crossOriginPrefetch: true
+  },
+
+  // 优化 Nitro 引擎配置
+  nitro: {
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    },
+    compressPublicAssets: true
+  },
+
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxt/ui',
