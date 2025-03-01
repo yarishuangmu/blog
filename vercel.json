@@ -6,6 +6,12 @@
       "use": "@vercel/node"
     }
   ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": ".output/server/index.mjs"
+    }
+  ],
  
   "git": {
     "deploymentEnabled": {
